@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit app (debug)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "justMyCode": true
+    },
+    {
+      "name": "FastAPI (uvicorn)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["api:app", "--reload"],
+      "justMyCode": true
+    },
+    {
+      "name": "Run evaluation",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "docmind.evaluation",
+      "args": ["--sweep"]
+    },
+    {
+      "name": "Chat in terminal",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/cli.py",
+      "args": ["chat"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

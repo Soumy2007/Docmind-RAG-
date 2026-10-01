@@ -1,0 +1,16 @@
+[
+  {"question": "How many casual leave days does an employee get per year?", "evidence": "12 days of casual leave", "should_answer": true},
+  {"question": "Can casual leave be carried forward?", "evidence": "cannot be carried forward", "should_answer": true},
+  {"question": "When is a medical certificate needed for sick leave?", "evidence": "exceeds 2 consecutive days", "should_answer": true},
+  {"question": "How many days per week can I work from home?", "evidence": "up to 2 days per week", "should_answer": true},
+  {"question": "What are the core online hours when working from home?", "evidence": "11:00 AM and 4:00 PM", "should_answer": true},
+  {"question": "What is the hotel limit per night in metro cities?", "evidence": "INR 6,000 per night", "should_answer": true},
+  {"question": "How long should a password be?", "evidence": "minimum of 12 characters", "should_answer": true},
+  {"question": "What is the notice period after confirmation?", "evidence": "notice period is 60 days", "should_answer": true},
+  {"question": "When are performance reviews held?", "evidence": "in April and October", "should_answer": true},
+  {"question": "What is the maximum value of a gift I can accept from a vendor?", "evidence": "gifts worth more than INR 2,000", "should_answer": true},
+  {"question": "Within how many days must expense claims be submitted?", "evidence": "within 30 days", "should_answer": true},
+  {"question": "What is the CEO's favourite colour?", "evidence": "", "should_answer": false},
+  {"question": "What is the salary of a senior data scientist?", "evidence": "", "should_answer": false},
+  {"question": "Are pets allowed inside the office building?", "evidence": "", "should_answer": false}
+]
